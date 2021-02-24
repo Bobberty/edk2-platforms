@@ -481,7 +481,7 @@
   gRaspberryPiTokenSpaceGuid.PcdMmcSdDefaultSpeedMHz|L"MmcSdDefaultSpeedMHz"|gConfigDxeFormSetGuid|0x0|25
   gRaspberryPiTokenSpaceGuid.PcdMmcSdHighSpeedMHz|L"MmcSdHighSpeedMHz"|gConfigDxeFormSetGuid|0x0|50
   gRaspberryPiTokenSpaceGuid.PcdMmcDisableMulti|L"MmcDisableMulti"|gConfigDxeFormSetGuid|0x0|0
-  gRaspberryPiTokenSpaceGuid.PcdMmcEnableDma|L"MmcEnableDma"|gConfigDxeFormSetGuid|0x0|0
+  gRaspberryPiTokenSpaceGuid.PcdMmcEnableDma|L"MmcEnableDma"|gConfigDxeFormSetGuid|0x0|1
 
   #
   # Debug-related.
@@ -502,8 +502,8 @@
   #
   # Supporting > 3GB of memory.
   #
-  gRaspberryPiTokenSpaceGuid.PcdRamMoreThan3GB|L"RamMoreThan3GB"|gConfigDxeFormSetGuid|0x0|0
-  gRaspberryPiTokenSpaceGuid.PcdRamLimitTo3GB|L"RamLimitTo3GB"|gConfigDxeFormSetGuid|0x0|1
+  gRaspberryPiTokenSpaceGuid.PcdRamMoreThan3GB|L"RamMoreThan3GB"|gConfigDxeFormSetGuid|0x0|1
+  gRaspberryPiTokenSpaceGuid.PcdRamLimitTo3GB|L"RamLimitTo3GB"|gConfigDxeFormSetGuid|0x0|0
 
   #
   # Device Tree and ACPI selection.
@@ -512,7 +512,7 @@
   # 1 - SYSTEM_TABLE_MODE_BOTH
   # 2 - SYSTEM_TABLE_MODE_DT
   #
-  gRaspberryPiTokenSpaceGuid.PcdSystemTableMode|L"SystemTableMode"|gConfigDxeFormSetGuid|0x0|0
+  gRaspberryPiTokenSpaceGuid.PcdSystemTableMode|L"SystemTableMode"|gConfigDxeFormSetGuid|0x0|1
 
   #
   # Enable a fan in the ACPI thermal zone on GPIO pin #
